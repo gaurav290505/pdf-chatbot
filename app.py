@@ -104,7 +104,7 @@ def ask_bytez(question, context):
         f"{BASE_URL}/chat/completions",
         headers=headers,
         json={
-            "model": "gpt-4o-mini",   # free Bytez-compatible model
+            "model": "openai/gpt-oss-120b",   # free Bytez-compatible model
             "messages": [
                 {
                     "role": "system",
